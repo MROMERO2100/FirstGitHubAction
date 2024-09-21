@@ -1,7 +1,13 @@
 name: Hola Mundo
 
-on: [push]
-
+on:
+  push:
+    branches:
+      - main
+      
+  pull_request:
+    branches:
+      - developer
 jobs:
     hola:
         runs-on: ubuntu-latest
