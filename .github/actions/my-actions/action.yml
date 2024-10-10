@@ -1,0 +1,10 @@
+name: "My action pipeline"
+description: "Doing my first action"
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: Hola Mundo
+      run: echo "Hola Mundo"
+      shell: bash
