@@ -40,3 +40,6 @@ jobs:
 
             - name: Node Version
               run: node --version
+
+            - name: ls action
+              run: ./.github/actions/my-actions
